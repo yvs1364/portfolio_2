@@ -1,11 +1,13 @@
-My profiles
+MY PROFILES
 
 Github : https://github.com/yvs1364
 
 LinkedIn : https://www.linkedin.com/in/yvan-poussard/
 
+My portfolio (Github pages) : https://yvs1364.github.io/
 
-My projects
+
+MY PROJECTS
 
 
 MetalbDesign (Ruby on Rails) : https://www.metalbdesign.fr/
