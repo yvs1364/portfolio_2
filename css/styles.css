@@ -6115,7 +6115,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: red !important;
+  background-color: #a0c1b8 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6125,7 +6125,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: blue !important;
+  background-color: #709fb0 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9826,7 +9826,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: blue !important;
+  color: #709fb0 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10109,7 +10109,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: red;
+  color: #a0c1b8;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10137,11 +10137,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: red;
+    background: #a0c1b8;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: red;
+    background: #a0c1b8;
   }
 
   #mainNav.navbar-shrink {
