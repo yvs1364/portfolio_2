@@ -82,13 +82,16 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: Playfair Display !important;
 }
 
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+p, a, label, li, button {
+  font-family: David Libre !important;
+}
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -476,8 +479,19 @@ mark,
 .img-fluid {
   min-height: 225px;
   max-width: 100%;
+  width: 100%;
   height: auto;
   max-height: 225px;
+  background-size: cover;
+}
+
+.img-fluide{
+  min-height: 225px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 225px;
+  background-size: cover;
 }
 
 .img-thumbnail {
@@ -5478,7 +5492,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 0 solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.75rem;
+  border-radius: 0.25rem !important;
   outline: 0;
 }
 
@@ -6265,7 +6279,7 @@ button.bg-dark:focus {
 }
 
 .rounded {
-  border-radius: 0.5rem !important;
+  border-radius: 0.25rem !important;
 }
 
 .rounded-top {
@@ -10146,7 +10160,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 20rem;
+  width: 25rem;
   border-radius: 50%;
   border: .5rem solid rgba(255,255,255,.4);
 }
@@ -10169,7 +10183,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.3rem;
+  border-radius: 0.25rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -10178,7 +10192,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(0, 0, 0, .3);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -10273,10 +10287,11 @@ form .row:first-child .floating-label-form-group {
   font-size: 3em;
 }
 #list{
-  padding:0;
-  margin:0;
-  list-style-type:none;
-  width:200px;
+  padding: 0;
+  margin: auto;
+  list-style-type: none;
+  width: 200px;
+  text-align: center;
  }
  #list li{
    font-size: 1.5em;
