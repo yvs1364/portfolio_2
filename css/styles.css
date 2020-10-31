@@ -7632,7 +7632,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 1rem !important;
   font-size: 1.5em;
 }
 
@@ -10146,7 +10146,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 25rem;
+  width: 20rem;
   border-radius: 50%;
   border: .5rem solid rgba(255,255,255,.4);
 }
@@ -10265,6 +10265,11 @@ form .row:first-child .floating-label-form-group {
   background-color: #1a252f;
 }
 #icards{
+  font-size: 3.5em;
+  padding: 5px;
+
+}
+#icard{
   font-size: 3em;
 }
 #list{
