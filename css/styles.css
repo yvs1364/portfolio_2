@@ -89,6 +89,10 @@ h1, h2, h3, h4, h5, h6, a {
   margin-bottom: 0.5rem;
   font-family: Alesand, sans-serif !important;
 }
+#btnmenu{
+  font-family: Alesand, sans-serif !important;
+}
+
 p, label, li, button {
   font-family: David Libre !important;
 }
