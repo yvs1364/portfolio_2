@@ -10405,8 +10405,8 @@ body {
   width: 325px; 
 }
 #rowMargin{
-  margin-left: 20em !important; 
-  margin-right: 25em !important;
+  margin-left: 0em !important; 
+  margin-right: 5em !important;
 }
 #block{
   width:10em;
@@ -10418,10 +10418,10 @@ body {
   text-align: center;
 }
 @media (max-width: 992px){
-  #rowMargin{
+  /* #rowMargin{
     margin-left: auto !important; 
     margin-right: auto !important;
-  }
+  } */
   #liste{
     width: 250px;
   }
